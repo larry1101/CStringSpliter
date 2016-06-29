@@ -1,0 +1,2 @@
+# CStringSpliter
+segment
