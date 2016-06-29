@@ -1,6 +1,6 @@
 //模拟Excel读csv
 //将str以逗号为分割符拆分，返回CStringList；所有单元都返回，包括空的单元；双引号内的无视逗号作为一个整体返回
-bool STRAnaylizer(CString str, CStringList* list)
+bool STRAnalyzer(CString str, CStringList* list)
 {
 	int q1 = str.Find(_T("\""), 0);
 	int q2 = str.Find(_T("\""), q1 + 1);
